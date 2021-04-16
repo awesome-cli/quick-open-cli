@@ -1,0 +1,4 @@
+build
+tsconfig.json
+.travis.yml
+.prettierrc

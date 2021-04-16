@@ -1,0 +1,62 @@
+{
+  "name": "quick-open",
+  "version": "1.0.0",
+  "description": "<TODO>",
+  "author": "Jakub Biesiada",
+  "license": "MIT",
+  "bin": "./build/cli.js",
+  "scripts": {
+    "build": "pastel build",
+    "dev": "pastel dev",
+    "prepare": "pastel build",
+    "//TODO": "",
+    "prettier": "prettier --write 'lib/**/*.{ts,tsx}'",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesome-cli/quick-open.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "<TODO>",
+    "quick",
+    "open",
+    "exists",
+    "file",
+    "dir"
+  ],
+  "bugs": {
+    "url": "https://github.com/awesome-cli/quick-open/issues"
+  },
+  "homepage": "https://github.com/awesome-cli/quick-open#readme",
+  "dependencies": {
+    "ink": "^3.0.8",
+    "ink-ascii": "0.0.4",
+    "ink-spinner": "^4.0.1",
+    "pastel": "^1.1.1",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "husky": "^4.3.0",
+    "ink-testing-library": "^2.1.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2",
+    "typescript": "^4.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "//TODO": "",
+    "lib/**/*.{ts,tsx}": [
+      "npm run prettier"
+    ]
+  }
+}
