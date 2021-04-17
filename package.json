@@ -9,7 +9,7 @@
     "dev": "pastel dev",
     "prepare": "pastel build",
     "//TODO": "",
-    "prettier": "prettier --write 'lib/**/*.{ts,tsx}'",
+    "prettier": "prettier --write 'lib/**/*.{tsx,ts}'",
     "//commit": "git-cz",
     "//semantic-release": "semantic-release"
   },
@@ -56,8 +56,7 @@
     }
   },
   "lint-staged": {
-    "//TODO": "",
-    "lib/**/*.{ts,tsx}": [
+    "lib/**/*.{tsx,ts}": [
       "npm run prettier"
     ]
   }
