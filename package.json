@@ -8,7 +8,6 @@
     "build": "pastel build",
     "dev": "pastel dev",
     "prepare": "pastel build",
-    "//TODO": "",
     "prettier": "prettier --write 'lib/**/*.{tsx,ts}'",
     "//commit": "git-cz",
     "//semantic-release": "semantic-release"
