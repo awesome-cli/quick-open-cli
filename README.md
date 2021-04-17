@@ -28,6 +28,7 @@ $ yarn global add quick-open
 
 ## How to Use
 
+<!-- TODO update params -> [] or <> -->
 ```sh
 $ quick-open [options] [dir]
 ```
