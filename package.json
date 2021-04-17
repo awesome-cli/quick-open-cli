@@ -37,7 +37,6 @@
   "dependencies": {
     "ink": "^3.0.8",
     "ink-ascii": "0.0.4",
-    "ink-spinner": "^4.0.1",
     "pastel": "^1.1.1",
     "react": "^17.0.2"
   },
