@@ -1,18 +1,17 @@
 {
   "name": "quick-open",
   "version": "1.0.0",
-  "description": "<TODO>",
+  "description": "Extended `open` command with default dir set to current",
   "author": "Jakub Biesiada",
   "license": "MIT",
-  "bin": "./build/cli.js",
   "scripts": {
     "build": "pastel build",
     "dev": "pastel dev",
     "prepare": "pastel build",
     "//TODO": "",
     "prettier": "prettier --write 'lib/**/*.{ts,tsx}'",
-    "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "//commit": "git-cz",
+    "//semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -22,17 +21,20 @@
     "node": ">=10"
   },
   "keywords": [
-    "<TODO>",
-    "quick",
     "open",
-    "exists",
     "file",
-    "dir"
+    "quick",
+    "dir",
+    "exists"
   ],
   "bugs": {
     "url": "https://github.com/awesome-cli/quick-open/issues"
   },
   "homepage": "https://github.com/awesome-cli/quick-open#readme",
+  "bin": {
+    "quick-open": "./build/cli.js",
+    "qo": "./build/cli.js"
+  },
   "dependencies": {
     "ink": "^3.0.8",
     "ink-ascii": "0.0.4",

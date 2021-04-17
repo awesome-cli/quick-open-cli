@@ -5,7 +5,7 @@
 
 ## About
 
-<!-- TODO -->
+Extended `open` command with default dir set to current.
 
 ## Prerequisites
 
@@ -28,13 +28,11 @@ $ yarn global add quick-open
 
 ## How to Use
 
-<!-- TODO -->
 ```sh
-$ quick-open [options] [packages]
+$ quick-open [options] [dir]
 ```
 
-<!-- TODO -->
-**Instead of `quick-open` you can use aliases: `` & ``**
+**Instead of `quick-open` you can use alias: `qo`**
 
 ## Options
 
