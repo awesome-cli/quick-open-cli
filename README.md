@@ -1,4 +1,4 @@
-# [Quick Open](https://github.com/awesome-cli/quick-open)
+# [Quick Open](https://github.com/awesome-cli/quick-open) (WIP)
 
 [![NPM version](https://img.shields.io/npm/v/quick-open?style=flat-square)](https://www.npmjs.com/package/quick-open)
 [![NPM downloads](https://img.shields.io/npm/dm/quick-open?style=flat-square)](https://www.npmjs.com/package/quick-open)
