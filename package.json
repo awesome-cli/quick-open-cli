@@ -1,5 +1,5 @@
 {
-  "name": "quick-open",
+  "name": "quick-open-cli",
   "version": "1.0.0-beta.1",
   "description": "Extended `open` command with default dir set to current",
   "author": "Jakub Biesiada",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/awesome-cli/quick-open.git"
+    "url": "https://github.com/awesome-cli/quick-open-cli.git"
   },
   "engines": {
     "node": ">=10"
@@ -27,11 +27,13 @@
     "exists"
   ],
   "bugs": {
-    "url": "https://github.com/awesome-cli/quick-open/issues"
+    "url": "https://github.com/awesome-cli/quick-open-cli/issues"
   },
-  "homepage": "https://github.com/awesome-cli/quick-open#readme",
+  "homepage": "https://github.com/awesome-cli/quick-open-cli#readme",
   "bin": {
+    "quick-open-cli": "./build/cli.js",
     "quick-open": "./build/cli.js",
+    "qoc": "./build/cli.js",
     "qo": "./build/cli.js"
   },
   "dependencies": {

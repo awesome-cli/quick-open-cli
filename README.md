@@ -1,7 +1,7 @@
-# [Quick Open](https://github.com/awesome-cli/quick-open) (WIP)
+# [Quick Open CLI](https://github.com/awesome-cli/quick-open-cli) (WIP)
 
-[![NPM version](https://img.shields.io/npm/v/quick-open?style=flat-square)](https://www.npmjs.com/package/quick-open)
-[![NPM downloads](https://img.shields.io/npm/dm/quick-open?style=flat-square)](https://www.npmjs.com/package/quick-open)
+[![NPM version](https://img.shields.io/npm/v/quick-open-cli?style=flat-square)](https://www.npmjs.com/package/quick-open-cli)
+[![NPM downloads](https://img.shields.io/npm/dm/quick-open-cli?style=flat-square)](https://www.npmjs.com/package/quick-open-cli)
 
 ## About
 
@@ -17,23 +17,23 @@ Extended `open` command with default dir set to current.
 First, install the CLI by npm:
 
 ```sh
-$ npm install -g quick-open
+$ npm install -g quick-open-cli
 ```
 
 Or Yarn:
 
 ```sh
-$ yarn global add quick-open
+$ yarn global add quick-open-cli
 ```
 
 ## How to Use
 
 <!-- TODO update params -> [] or <> -->
 ```sh
-$ quick-open [options] [dir]
+$ quick-open-cli [options] [dir]
 ```
 
-**Instead of `quick-open` you can use alias: `qo`**
+**Instead of `quick-open-cli` you can use aliases: `quick-open`, `qoc` & `qo`**
 
 ## Options
 
