@@ -1,4 +1,4 @@
-build
+commands
 tsconfig.json
 .travis.yml
 .prettierrc

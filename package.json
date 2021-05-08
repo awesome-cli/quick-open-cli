@@ -20,10 +20,12 @@
     "node": ">=10"
   },
   "keywords": [
+    "cli",
     "open",
     "file",
     "quick",
     "dir",
+    "program",
     "exists"
   ],
   "bugs": {
