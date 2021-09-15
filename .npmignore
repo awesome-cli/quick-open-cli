@@ -1,3 +1,4 @@
+.husky
 commands
 tsconfig.json
 .travis.yml

@@ -7,10 +7,11 @@
   "scripts": {
     "build": "pastel build",
     "dev": "pastel dev",
-    "prepare": "pastel build",
+    "prepare": "pastel build && husky install",
     "prettier": "prettier --write 'lib/**/*.{tsx,ts}'",
-    "//commit": "git-cz",
-    "//semantic-release": "semantic-release"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release",
+    "pre-commit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -51,11 +52,6 @@
     "lint-staged": "^10.4.2",
     "prettier": "^2.1.2",
     "typescript": "^4.2.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "lib/**/*.{tsx,ts}": [

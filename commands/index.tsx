@@ -6,9 +6,9 @@ interface Props<T> {
   readonly inputArgs: T[];
 }
 
-/// This is my command description
+/// Quick Open opens files from a shell.
 const QuickOpen = <T,>({ inputArgs }: Props<T>) => {
-  const [error, setError] = useState<string>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     cp.exec(`open ${inputArgs[0] || '.'}`.trim(), (stdout) => {
