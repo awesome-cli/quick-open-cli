@@ -7,6 +7,8 @@
 
 Extended `open` command with default dir set to current.
 
+You can read more about [the default open command from Linux](https://man7.org/linux/man-pages/man2/open.2.html).
+
 ## Prerequisites
 
 - Node.js
