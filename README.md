@@ -32,7 +32,7 @@ $ yarn global add quick-open-cli
 $ quick-open-cli [options] [dir]
 ```
 
-**Instead of `quick-open-cli` you can use aliases: `quick-open`, `qoc` & `qo`**
+**Instead of `quick-open-cli` you can use aliases: `quick-open`, `qoc`, `qo`, `o`**
 
 ## License
 

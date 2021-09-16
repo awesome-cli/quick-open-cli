@@ -1,7 +1,7 @@
 # Quick Open CLI Changelog
 
-## 1.0.0 (2021-mm-dd)
+## 1.0.0 (Soon)
 
 #### New Feature
 
-<!-- TODO -->
+- added extended `open` command
