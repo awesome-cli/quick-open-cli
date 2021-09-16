@@ -6,6 +6,8 @@ interface Props<T> {
   readonly inputArgs: T[];
 }
 
+// TODO
+
 /// Quick Open opens files from a shell.
 const QuickOpen = <T,>({ inputArgs }: Props<T>) => {
   const [error, setError] = useState<string | null>(null);
